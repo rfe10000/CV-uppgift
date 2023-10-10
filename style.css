@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;400&family=Roboto:ital,wght@0,300;1,900&family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+
+.flex-container{
+    display: flex;
+}
+
+/* styling for left box */
+.left{
+    border: 1px;
+    border-style: solid;
+    border-color: aqua;
+    height: auto;
+    width: 500px;
+    margin: 0px;
+    /* background-color:green; */
+    /* border-radius: 10%; */
+    /* font-family: 'Roboto', sans-serif; */
+    padding-left: 5px;
+    padding-top: 3px;
+
+}
+
+/* styling for right box */
+.right{
+    border: 1px;
+    border-style:dotted;
+    border-color: darkred;
+    height: auto;
+    width: 600px;
+    margin: 0px;
+    /* background-color:blueviolet; */
+    /* border-radius: 10%; */
+    /* font-family: 'Roboto', sans-serif; */
+    padding-left: 5px;
+    padding-top: 3px;
+}
+
+.work-resume{
+    border: 2px;
+    border-style:dotted;
+    border-color: darkgreen
+
+}
+
+.education-resume{
+    border: 2px;
+    border-style:dotted;
+    border-color: darkred;
+} 
+
+h2 {
+    /* line-height: 10px;  */
+    margin-top:10px;
+    margin-bottom:5px;
+}
+
+h3{
+    /* line-height: 5px;  */
+    margin-top:10px;
+    margin-bottom:5px;
+}
+
+h4{
+    /* line-height: 5px;  */
+    /* margin-top:10px;
+    margin-bottom:5px; */
+    margin: 0;
+}
+.rubrik1 h3 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: lighter;
+    font-size: 20px;
+    text-align: left;
+    margin-bottom:15px;
+}
+  
+.rubrik1 h4 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: lighter;
+    font-size: 15px;
+    line-height: 0px;
+    text-align: left;
+    margin: 0
+  }
+
+
+/* p.work-resume{
+    font-family: 'Roboto Slab', serif;
+    font-size: 12px;
+} */
+
+p{
+    font-family: 'Roboto Slab', serif;
+    font-size: 12px;
+}
+
+.img{
+    display: flex;
+    margin:5px
+}
+
+.single-img{
+    margin: 10px
+}
