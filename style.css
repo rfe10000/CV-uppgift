@@ -37,6 +37,16 @@
     padding-top: 3px;
 }
 
+.largetext {
+    /* font-family: 'Roboto', serif; */
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 60px;
+    text-align: left;
+    padding-top: 50px;
+    padding-bottom: 70px;
+}
+/*
 .work-resume{
     border: 2px;
     border-style:dotted;
@@ -50,7 +60,7 @@
     border-color: darkred;
 } 
 
-/* h2 {
+ h2 {
     margin-top:10px;
     margin-bottom:5px;
 }
