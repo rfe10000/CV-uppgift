@@ -130,6 +130,10 @@ span.year {
     font-size: 15px;
 }
 
+img {
+    max-width: 330px;
+    height: auto;
+}
 
 p{
     font-family: 'Raleway', sans-serif;
