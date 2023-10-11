@@ -4,19 +4,15 @@
 
 .flex-container{
     display: flex;
+    margin: auto;
+    width: 90%;
 }
 
 /* styling for left box */
 .left{
-    border: 1px;
-    border-style: solid;
-    border-color: aqua;
     height: auto;
-    width: 500px;
-    margin: 0px;
-    /* background-color:green; */
-    /* border-radius: 10%; */
-    /* font-family: 'Roboto', sans-serif; */
+    width: 480px;
+    margin: 20px;
     padding-left: 5px;
     padding-top: 3px;
 
@@ -24,21 +20,14 @@
 
 /* styling for right box */
 .right{
-    border: 1px;
-    border-style:dotted;
-    border-color: darkred;
     height: auto;
-    width: 600px;
+    width: 570px;
     margin: 0px;
-    /* background-color:blueviolet; */
-    /* border-radius: 10%; */
-    /* font-family: 'Roboto', sans-serif; */
     padding-left: 5px;
     padding-top: 3px;
 }
 
 .largetext {
-    /* font-family: 'Roboto', serif; */
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bolder;
     font-size: 60px;
@@ -46,33 +35,6 @@
     padding-top: 50px;
     padding-bottom: 70px;
 }
-/*
-.work-resume{
-    border: 2px;
-    border-style:dotted;
-    border-color: darkgreen
-
-}
-
-.education-resume{
-    border: 2px;
-    border-style:dotted;
-    border-color: darkred;
-} 
-
- h2 {
-    margin-top:10px;
-    margin-bottom:5px;
-}
-
-h3{
-    margin-top:10px;
-    margin-bottom:5px;
-}
-
-h4{
-    margin: 0;
-} */
 
 .standarditem h3 {
     font-family: 'Raleway', sans-serif;
@@ -116,12 +78,6 @@ h4{
     text-align: left;
     padding-left: 20px;
     margin: 0;
-}
-
-span.headeryear {
-    font-family: 'Raleway', sans-serif;
-    font-weight: lighter;
-    font-size: 15px;
 }
 
 span.year {
