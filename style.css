@@ -118,6 +118,12 @@ h4{
     margin: 0;
 }
 
+span.headeryear {
+    font-family: 'Raleway', sans-serif;
+    font-weight: lighter;
+    font-size: 15px;
+}
+
 span.year {
     font-family: 'Raleway', sans-serif;
     font-weight: lighter;
